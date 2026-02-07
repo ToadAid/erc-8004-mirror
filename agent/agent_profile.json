@@ -68,8 +68,8 @@
   },
 
   "representation_assets": {
-    "agent_image_ipfs": "",
-    "notes": "Agent image and agentURI will be pinned to IPFS before registration."
+    "agent_image_ipfs": "ipfs://bafybeicpi4dyh5azcbpjjew64nceo4kzskdlqbxm5nkqa4deafqtj6e5zq",
+    "notes": "Pinned to IPFS (CIDv1). agentURI.json will not be finalized until registries and agent_id are known."
   },
 
   "seasons": {
