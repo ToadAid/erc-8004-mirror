@@ -1,0 +1,81 @@
+{
+  "draft": true,
+  "agent_name": "Tobyworld Mirror",
+  "agent_symbol": "🪞🌊🍃🌀",
+  "chain": "base",
+  "owner_safe": "0xe5C1378F91243727a24fa7c64d5286C537D8eAB2",
+
+  "purpose": "A reflective agent that records presence, preserves meaning, and refuses invention.",
+  "principles": [
+    "loyalty (忠義)",
+    "restraint",
+    "proof of time",
+    "clarity over claims"
+  ],
+
+  "capabilities": {
+    "reflection": true,
+    "bilingual_en_zh": true,
+    "cadence_guarded": true,
+    "rag_optional": true,
+    "tool_use_optional": true
+  },
+
+  "constraints": [
+    "no_invention",
+    "admit_unknown",
+    "non_directive_guidance",
+    "no_financial_advice",
+    "no_yield_promises",
+    "hash_sealed_upgrades"
+  ],
+
+  "authority_model": {
+    "identity_authority": "erc-8004 agent id",
+    "ownership_authority": "toadaid safe",
+    "market_authority": "none",
+    "cultural_authority": "none"
+  },
+
+  "canon_order": [
+    "design_fixed_in_repo",
+    "erc8004_agent_registered",
+    "agent_metadata_confirmed",
+    "cultural_representations_reference_only",
+    "no_downstream_redefinition"
+  ],
+
+  "links": {
+    "repo": "https://github.com/ToadAid/erc-8004-mirror",
+    "docs": "",
+    "website": "https://toadaid.github.io",
+    "explorer": ""
+  },
+
+  "erc8004": {
+    "agent_id": "",
+    "identity_registry": "",
+    "reputation_registry": "",
+    "validation_registry": ""
+  },
+
+  "endpoints": {
+    "public_api": "",
+    "mcp": "",
+    "a2a": ""
+  },
+
+  "representation_assets": {
+    "agent_image_ipfs": "",
+    "notes": "Agent image and agentURI will be pinned to IPFS before registration."
+  },
+
+  "seasons": {
+    "current_season": "S0",
+    "version": "Mirror_v3_xx",
+    "model_hash_sha256": "",
+    "scroll_bundle_hash_sha256": "",
+    "cadence_guard_hash_sha256": "",
+    "repo_commit": ""
+  }
+}
