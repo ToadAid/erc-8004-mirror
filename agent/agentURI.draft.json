@@ -63,8 +63,8 @@
   ],
 
   "media": {
-    "image": "",
-    "notes": "Agent image will be pinned to IPFS and referenced here before registration."
+  "image": "ipfs://bafybeicpi4dyh5azcbpjjew64nceo4kzskdlqbxm5nkqa4deafqtj6e5zq",
+  "notes": "Pinned to IPFS (CIDv1). Gateway mirrors may change; canonical is ipfs:// URI."
   },
 
   "references": {
