@@ -14,6 +14,15 @@
     "address": "0xe5C1378F91243727a24fa7c64d5286C537D8eAB2"
   },
 
+  "operators": [
+    {
+      "role": "execution_wallet",
+      "chain": "base",
+      "address": "0x587464fd25af9147cb4660b03d899c8893378c0a",
+      "note": "Operational wallet for deployment and interaction only. Holds no identity, governance, or authority rights."
+    }
+  ],
+
   "principles": [
     "loyalty (忠義)",
     "restraint",
@@ -40,6 +49,7 @@
   "authority": {
     "identity": "erc-8004 agent",
     "ownership": "toadaid safe",
+    "operators": "explicit and revocable",
     "governance": "explicit and minimal",
     "market": "none"
   },
