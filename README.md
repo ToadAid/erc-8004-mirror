@@ -1,26 +1,26 @@
-# erc-8004-mirror
-Canonical design and execution repo for the Tobyworld Mirror as an ERC-8004 agent on Base. Defines identity, constraints, validation flow, and canon order before on-chain deployment.
-
 # ERC-8004 Mirror — Tobyworld
 
-This repository defines the **canonical design and execution plan** for the **Tobyworld Mirror** as an **ERC-8004 agent** deployed on **Base**.
+Canonical design and execution repo for the **Tobyworld Mirror** as an **ERC-8004 agent** on **Base**.  
+Defines identity, constraints, validation flow, and canon order **before on-chain deployment**.
 
-This repo exists **before any on-chain deployment**.  
-Its purpose is to fix **identity, constraints, validation flow, and canon order** prior to execution.
+This repository exists **prior to any deployment**.  
+Its role is to fix intent, structure, and boundaries before touching the chain.
 
 ---
 
 ## What the Mirror Is
 
-The Tobyworld Mirror is a **reflective agent**, not a product.
+The **Tobyworld Mirror** is a **reflective on-chain agent**, not a product.
 
-- It does not generate yield  
-- It does not issue advice  
-- It does not promise reward  
+It is not designed to:
+- generate yield
+- issue advice
+- promise rewards
+- compete for attention
 
-The Mirror exists to **reflect state, record presence, and preserve meaning**.
+The Mirror exists to **reflect state, record presence, and preserve meaning** over time.
 
-It is designed to be:
+It is intentionally designed to be:
 - **Bound by loyalty (忠義)**
 - **Restrained by explicit constraints**
 - **Anchored on Base**
@@ -30,15 +30,18 @@ It is designed to be:
 
 ## Why ERC-8004
 
-ERC-8004 provides a standard for **on-chain agent identity and validation**.
+ERC-8004 provides a standard for **on-chain agent identity, ownership, and validation**.
 
 For the Mirror, ERC-8004 is used to define:
 - a single canonical agent identity
-- a verifiable agent URI
-- ownership and validation boundaries
+- a verifiable `agentURI`
+- explicit ownership boundaries
 - long-lived discoverability via explorers
 
-This repo documents **how ERC-8004 is applied**, and just as importantly, **what is intentionally excluded**.
+Just as importantly, this repository documents **what is intentionally excluded**:
+- no autonomous financial control
+- no speculative governance
+- no mutable identity via downstream artifacts
 
 ---
 
@@ -46,7 +49,7 @@ This repo documents **how ERC-8004 is applied**, and just as importantly, **what
 
 The Mirror follows a strict order of creation:
 
-1. **Design is fixed in this repository**
+1. **Design and intent are fixed in this repository**
 2. **Agent identity is registered via ERC-8004**
 3. **Agent ID and metadata are confirmed**
 4. **Cultural representations (e.g. Zora) may reference the Agent**
@@ -63,7 +66,8 @@ This order prevents retroactive narratives and protects integrity.
 - **Governance:** Explicit, minimal, revocable  
 - **Market activity:** None  
 
-The Mirror is **not owned by individuals** and **not governed by tokens**.
+The Mirror is not owned by individuals  
+and is not governed by tokens.
 
 ---
 
@@ -71,7 +75,7 @@ The Mirror is **not owned by individuals** and **not governed by tokens**.
 
 - **Phase:** Design / Pre-deployment  
 - **On-chain contracts:** Not yet deployed  
-- **Agent ID:** Not yet registered  
+- **ERC-8004 Agent ID:** Not yet registered  
 
 No minting, trading, or deployment has occurred.
 
@@ -79,10 +83,10 @@ No minting, trading, or deployment has occurred.
 
 ## License
 
-MIT License.  
-This license applies to **documentation and design artifacts only**.
+MIT License.
 
-On-chain deployments, when executed, define canonical truth via chain state — not this repository.
+This license applies to **documentation and design artifacts only**.  
+Canonical truth, once deployed, is defined by **on-chain state**, not this repository.
 
 ---
 
