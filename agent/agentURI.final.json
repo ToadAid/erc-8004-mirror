@@ -1,0 +1,117 @@
+{
+  "name": "Tobyworld Mirror",
+  "symbol": "\ud83e\ude9e",
+  "description": "A reflective ERC-8004 agent bound by loyalty (\u5fe0\u7fa9), restraint, and proof of time. The Mirror records presence, preserves meaning, and refuses invention.",
+  "chain": "base",
+  "standard": "ERC-8004",
+  "owner": {
+    "type": "multisig",
+    "name": "ToadAid Safe",
+    "address": "0xe5C1378F91243727a24fa7c64d5286C537D8eAB2"
+  },
+  "operators": [
+    {
+      "role": "execution_wallet",
+      "chain": "base",
+      "address": "0x587464fd25af9147cb4660b03d899c8893378c0a",
+      "note": "Operational wallet for deployment and interaction only. Holds no identity, governance, or authority rights."
+    }
+  ],
+  "principles": [
+    "loyalty (\u5fe0\u7fa9)",
+    "restraint",
+    "proof of time",
+    "clarity over claims"
+  ],
+  "constraints": [
+    "no_invention",
+    "admit_unknown",
+    "non_directive_reflection",
+    "no_financial_advice",
+    "no_yield_promises",
+    "identity_immutable",
+    "one_way_references_only"
+  ],
+  "capabilities": {
+    "reflection": true,
+    "bilingual_en_zh": true,
+    "cadence_guarded": true
+  },
+  "authority": {
+    "identity": "erc-8004 agent",
+    "ownership": "toadaid safe",
+    "operators": "explicit and revocable",
+    "governance": "explicit and minimal",
+    "market": "none"
+  },
+  "canon_order": [
+    "design_fixed_in_repo",
+    "erc8004_agent_registered",
+    "agent_metadata_pinned",
+    "agent_id_confirmed",
+    "cultural_artifacts_reference_only"
+  ],
+  "media": {
+    "image": "",
+    "notes": "Agent image will be pinned to IPFS and referenced here before registration."
+  },
+  "references": {
+    "repository": "https://github.com/ToadAid/erc-8004-mirror",
+    "website": "https://toadaid.github.io",
+    "explorer": ""
+  },
+  "erc8004": {
+    "agent_id": "",
+    "identity_registry": "",
+    "validation_registry": "",
+    "chain_id": 8453,
+    "network": "base",
+    "registry": "0x7274e874CA62410a93Bd8bf61c69d8045E399c02"
+  },
+  "disclaimer": "This agent does not promise rewards, governance rights, or financial outcomes. Cultural artifacts may reference this agent but hold no authority over it.",
+  "image": "",
+  "external_url": "https://toadaid.github.io",
+  "attributes": [
+    {
+      "trait_type": "Standard",
+      "value": "ERC-8004"
+    },
+    {
+      "trait_type": "Chain",
+      "value": "Base"
+    },
+    {
+      "trait_type": "Agent ID",
+      "value": "0"
+    },
+    {
+      "trait_type": "Owner (Safe)",
+      "value": {
+        "type": "multisig",
+        "name": "ToadAid Safe",
+        "address": "0xe5C1378F91243727a24fa7c64d5286C537D8eAB2"
+      }
+    },
+    {
+      "trait_type": "Agent Wallet (Vault)",
+      "value": "0x587464fd25Af9147CB4660B03d899c8893378C0A"
+    },
+    {
+      "trait_type": "Registry",
+      "value": "0x7274e874CA62410a93Bd8bf61c69d8045E399c02"
+    },
+    {
+      "trait_type": "Project",
+      "value": "ToadAid"
+    },
+    {
+      "trait_type": "Role",
+      "value": "Mirror / Lore Guardian"
+    }
+  ],
+  "onchain": {
+    "mint_tx": "0xce6a6abc760e6d50afe2f3f601cc6dc51f191f9eafccb015cfcf7bc511d2de2e",
+    "token_id": 0,
+    "owner_contract": "0x7274e874CA62410a93Bd8bf61c69d8045E399c02"
+  }
+}
