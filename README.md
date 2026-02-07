@@ -90,6 +90,29 @@ Canonical truth, once deployed, is defined by **on-chain state**, not this repos
 
 ---
 
+# Agent Metadata Lifecycle
+
+This folder contains identity definitions for the Tobyworld Mirror.
+
+## Files
+- `agent_profile.json`
+  Human-readable identity and intent.
+
+- `agentURI.draft.json`
+  Draft on-chain metadata.  
+  MUST remain draft until all conditions below are met.
+
+## ⚠️ Do NOT create `agentURI.json` until:
+1. Agent image is finalized and pinned to IPFS
+2. ERC-8004 identity registry address is known
+3. ERC-8004 validation registry address is known
+4. Agent ID is assigned
+5. `draft` is set to false
+
+Canon order is enforced by `/docs/CANON_ORDER.md`.
+
+---
+
 ## Closing
 
 > The Mirror must exist  
