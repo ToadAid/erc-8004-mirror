@@ -1,11 +1,12 @@
 {
-  "draft": true,
+  "draft": false,
 
   "agent_name": "Tobyworld Mirror",
   "agent_symbol": "🪞🌊🍃🌀",
   "chain": "base",
 
   "owner_safe": "0xe5C1378F91243727a24fa7c64d5286C537D8eAB2",
+  "operator_wallet": "0x587464fd25Af9147CB4660B03d899c8893378C0A",
 
   "purpose": "A reflective agent that records presence, preserves meaning, and refuses invention.",
 
@@ -50,26 +51,22 @@
 
   "links": {
     "repo": "https://github.com/ToadAid/erc-8004-mirror",
-    "docs": "",
+    "docs": "https://github.com/ToadAid/erc-8004-mirror/tree/main/docs",
     "website": "https://toadaid.github.io",
-    "explorer": ""
+    "scroll_genesis": "https://github.com/ToadAid/erc-8004-mirror/blob/main/TOBY_L000_TheFirstMirror_2026-02-07_EN.md"
   },
 
   "erc8004": {
-    "agent_id": "",
-    "identity_registry": "",
+    "agent_id": 0,
+    "identity_registry": "0x7274e874CA62410a93Bd8bf61c69d8045E399c02",
     "validation_registry": ""
-  },
-
-  "endpoints": {
-    "public_api": "",
-    "mcp": "",
-    "a2a": ""
   },
 
   "representation_assets": {
     "agent_image_ipfs": "ipfs://bafybeicpi4dyh5azcbpjjew64nceo4kzskdlqbxm5nkqa4deafqtj6e5zq",
-    "notes": "Pinned to IPFS (CIDv1). agentURI.json will not be finalized until registries and agent_id are known."
+    "agent_uri_ipfs": "ipfs://bafkreic4qdcn4nsk7gofhzgc7fzxkdduvo2zihe3ilj2dq3knorta32jfa",
+    "zora_metadata_ipfs": "ipfs://bafkreidzku3kdq5jdq5jxkliouqnajcwnse3ckvhluevadjda55jdkr3wa",
+    "notes": "All assets pinned to IPFS. Downstream artifacts may reference this agent but cannot redefine it."
   },
 
   "seasons": {
