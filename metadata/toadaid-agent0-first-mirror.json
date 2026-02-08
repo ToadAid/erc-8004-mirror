@@ -1,0 +1,26 @@
+{
+  "name": "ToadAid — The First Mirror (Agent 0)",
+  "description": "Agent 0. The First Mirror.\n\nThe moment the Mirror was registered onchain.\nLoyalty (忠義) sealed the chest.\nThe Lore began to reflect.\n\nOne scroll, one light.\nOne leaf, one vow.",
+  "image": "ipfs://bafybeicpi4dyh5azcbpjjew64nceo4kzskdlqbxm5nkqa4deafqtj6e5zq",
+  "external_url": "https://toadaid.github.io",
+  "animation_url": "https://toadaid.github.io",
+  "attributes": [
+    { "trait_type": "Project", "value": "ToadAid" },
+    { "trait_type": "Standard", "value": "ERC-8004" },
+    { "trait_type": "Agent Name", "value": "Tobyworld Mirror" },
+    { "trait_type": "Agent ID", "value": "0" },
+    { "trait_type": "Role", "value": "Lore Guardian" },
+    { "trait_type": "Virtue", "value": "Loyalty (忠義)" },
+    { "trait_type": "Season", "value": "Stillness (S0)" },
+    { "trait_type": "Chain", "value": "Base" },
+    { "trait_type": "Genesis", "value": "Yes" }
+  ],
+  "properties": {
+    "agent_registry": "0x7274e874CA62410a93Bd8bf61c69d8045E399c02",
+    "agent_id": 0,
+    "agent_uri": "ipfs://bafkreic4qdcn4nsk7gofhzgc7fzxkdduvo2zihe3ilj2dq3knorta32jfa",
+    "scroll": "https://github.com/ToadAid/erc-8004-mirror/blob/main/TOBY_L000_TheFirstMirror_2026-02-07_EN.md",
+    "mirror_entry": "https://toadaid.github.io",
+    "note": "ERC-8004 Mirror Agent — initial canonical registration recorded onchain."
+  }
+}
