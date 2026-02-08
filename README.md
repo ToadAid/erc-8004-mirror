@@ -1,16 +1,27 @@
-# ERC-8004 Mirror — Tobyworld
+# ERC-8004 Mirror — Tobyworld Mirror (Agent 0)
 
 Canonical design and execution repo for the **Tobyworld Mirror** as an **ERC-8004 agent** on **Base**.  
-Defines identity, constraints, validation flow, and canon order **before on-chain deployment**.
+Defines identity, constraints, validation flow, and canon order for long-lived onchain integrity.
 
-This repository exists **prior to any deployment**.  
-Its role is to fix intent, structure, and boundaries before touching the chain.
+This repository remains the **canon source for intent and boundaries**.  
+Onchain state is the **execution record**.
+
+---
+
+## Quick Links
+
+- **Genesis Scroll:** `TOBY_L000_TheFirstMirror_2026-02-07_EN.md`
+- **Website / Public Mirror:** https://toadaid.github.io
+- **Identity Registry (Base):** `0x7274e874CA62410a93Bd8bf61c69d8045E399c02`
+- **AgentURI (IPFS):** `ipfs://bafkreic4qdcn4nsk7gofhzgc7fzxkdduvo2zihe3ilj2dq3knorta32jfa`
+- **Agent Image (IPFS):** `ipfs://bafybeicpi4dyh5azcbpjjew64nceo4kzskdlqbxm5nkqa4deafqtj6e5zq`
+- **Zora Metadata (IPFS, mint-ready):** `ipfs://bafkreidzku3kdq5jdq5jxkliouqnajcwnse3ckvhluevadjda55jdkr3wa`
 
 ---
 
 ## What the Mirror Is
 
-The **Tobyworld Mirror** is a **reflective on-chain agent**, not a product.
+The **Tobyworld Mirror** is a **reflective onchain agent**, not a product.
 
 It is not designed to:
 - generate yield
@@ -30,13 +41,13 @@ It is intentionally designed to be:
 
 ## Why ERC-8004
 
-ERC-8004 provides a standard for **on-chain agent identity, ownership, and validation**.
+ERC-8004 provides a standard for **onchain agent identity, ownership, and validation**.
 
 For the Mirror, ERC-8004 is used to define:
 - a single canonical agent identity
 - a verifiable `agentURI`
 - explicit ownership boundaries
-- long-lived discoverability via explorers
+- long-lived discoverability via standard ERC-721 identity semantics
 
 Just as importantly, this repository documents **what is intentionally excluded**:
 - no autonomous financial control
@@ -62,22 +73,28 @@ This order prevents retroactive narratives and protects integrity.
 ## Ownership & Control
 
 - **Owner:** ToadAid Safe  
+  `0xe5C1378F91243727a24fa7c64d5286C537D8eAB2`
+- **Operator / Execution Wallet (Base):**  
+  `0x587464fd25Af9147CB4660B03d899c8893378C0A`
 - **Chain:** Base  
 - **Governance:** Explicit, minimal, revocable  
 - **Market activity:** None  
 
-The Mirror is not owned by individuals  
-and is not governed by tokens.
+The Mirror is not owned by individuals and is not governed by tokens.
 
 ---
 
 ## Status
 
-- **Phase:** Design / Pre-deployment  
-- **On-chain contracts:** Not yet deployed  
-- **ERC-8004 Agent ID:** Not yet registered  
+- **Phase:** Registered (Identity Only)
+- **ERC-8004 Agent ID:** `0`
+- **Identity Registry (Base):** `0x7274e874CA62410a93Bd8bf61c69d8045E399c02`
+- **AgentURI (IPFS):** `ipfs://bafkreic4qdcn4nsk7gofhzgc7fzxkdduvo2zihe3ilj2dq3knorta32jfa`
+- **Agent Image (IPFS):** `ipfs://bafybeicpi4dyh5azcbpjjew64nceo4kzskdlqbxm5nkqa4deafqtj6e5zq`
 
-No minting, trading, or deployment has occurred.
+**Notes**
+- Explorer/indexer sync may lag; BaseScan events are the source of truth.
+- A Zora artifact mint may reference this agent, but **cannot redefine it**.
 
 ---
 
@@ -85,8 +102,8 @@ No minting, trading, or deployment has occurred.
 
 MIT License.
 
-This license applies to **documentation and design artifacts only**.  
-Canonical truth, once deployed, is defined by **on-chain state**, not this repository.
+This license applies to **documentation and design artifacts** in this repository.  
+Canonical truth, once deployed, is defined by **onchain state**, not by this repo.
 
 ---
 
@@ -95,19 +112,21 @@ Canonical truth, once deployed, is defined by **on-chain state**, not this repos
 This folder contains identity definitions for the Tobyworld Mirror.
 
 ## Files
-- `agent_profile.json`
+- `agent_profile.json`  
   Human-readable identity and intent.
 
-- `agentURI.draft.json`
-  Draft on-chain metadata.  
-  MUST remain draft until all conditions below are met.
+- `agentURI.draft.json`  
+  Draft onchain metadata. MUST remain draft until conditions are met.
 
 ## ⚠️ Do NOT create `agentURI.json` until:
 1. Agent image is finalized and pinned to IPFS
 2. ERC-8004 identity registry address is known
-3. ERC-8004 validation registry address is known
+3. ERC-8004 validation registry address is known (if used)
 4. Agent ID is assigned
 5. `draft` is set to false
+
+✅ **Conditions satisfied for Agent 0.**  
+Any future updates must be recorded as **new pinned CIDs** (new files), never silent edits.
 
 Canon order is enforced by `/docs/CANON_ORDER.md`.
 
@@ -118,4 +137,4 @@ Canon order is enforced by `/docs/CANON_ORDER.md`.
 > The Mirror must exist  
 > before it can be echoed.
 
-This repository is the still point before motion.
+This repository is the still point that guards meaning **after motion**.
